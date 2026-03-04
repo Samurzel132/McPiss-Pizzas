@@ -1,0 +1,42 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#Kopfleiste{
+    display: flex;
+    flex-direction: row;
+    background-image: url("text_box.png");
+    background-color: rgba(0, 0, 0, 0.61);
+    background-size: cover;
+    text-align: center;
+    color: rgb(144, 166, 246);
+    width: 100vw;          
+    height: 80px;
+    transition: height 0.5s ease;
+    overflow: hidden;
+
+}
+#Kopfleiste:hover{
+    height: 100px;
+    padding: auto;
+}
+#Discord{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid beige;
+    width: auto;
+    height: 20px;
+    font-family: "Headfont";
+    margin: 30px;
+    transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+}
+#Discord:hover{
+    background-color: rgb(144, 166, 246);
+    color: black;
+    border: 2px solid black;
+}
+
+@font-face {
+    font-family: "Headfont";
+    src: url(/Fonts/Audiowide-Regular.ttf);
+}
