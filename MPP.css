@@ -23,7 +23,7 @@ body {
 }
 
 #Kopfleiste:hover {
-    height: 100px;
+    height: 150px;
     padding: auto;
 }
 
@@ -91,3 +91,4 @@ body {
     position: relative;
     z-index: 2;        
 }
+
