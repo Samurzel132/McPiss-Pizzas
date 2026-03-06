@@ -73,20 +73,21 @@ body {
 .Headbtn:hover .hidden-img {
     opacity: 1;
     z-index: 1;
+    top: 100%;
 }
 
 .hidden-img {
     position: absolute;
-    top: 100%;          /* vertikal zentriert unter Button */
+    top: 0%;    
     left: 0%;
-    width: 100%;      /* Größe anpassen */
-    z-index: -1;        /* hinter dem Button */
+    width: 100%;   
+    z-index: -1;        
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: all 0.3s ease;
    
 }
 
 .button-container span {
     position: relative;
-    z-index: 2;        /* Button/Text liegt vor dem Bild */
+    z-index: 2;        
 }
